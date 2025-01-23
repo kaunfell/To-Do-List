@@ -1,0 +1,66 @@
+
+
+/*Webkit*/ 
+/*
+.progressB::-webkit-progress-bar {
+    background-color: #88c261 !important;
+    
+  } /*
+  
+
+
+
+  /*Firefox*/
+
+/*beginning*/
+.progressB.zeroStep::-moz-progress-bar {
+    background-color: #9dfad6 !important; 
+   
+  }
+
+
+/*first, 1/4*/
+  .progressB.firstStep::-moz-progress-bar{
+    background-color: rgb(131, 245, 165) !important;
+}
+
+/*middle, 2/4*/
+.progressB.middleStep::-moz-progress-bar{
+    
+
+    background-color: rgb(86, 207, 141) !important;
+}
+
+/*third step, 3/4*/
+.progressB.thirdStep::-moz-progress-bar{
+    background-color: rgb(110, 255, 110) !important;
+}
+
+/*full steps, 4/4*/
+.progressB.fullSteps::-moz-progress-bar{
+    background-color: rgb(5, 151, 49) !important;
+}
+
+
+/* border color  rgb(197, 151, 90)*/
+.head{
+  background-color: var(--head-bg-color);
+  border: 2px solid var(--border-color);
+  color: var(--head-color);
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgb(37, 34, 34);
+
+  
+}
+
+.progressContainer{
+  background-color: var(--container-bg-color);
+  border: 2px solid var(--border-color);
+}
+
+.smallHeads{
+  font-weight: 600;
+  color: var(--small-head-color);
+  background-color: var(--small-head-bg-color);
+  
+}

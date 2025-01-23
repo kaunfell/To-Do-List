@@ -1,0 +1,12 @@
+Structure:
+
+
+
+App renders:
+-Header
+-Chores
+
+
+
+
+Chores (parent)--> Timer(middle parent) --> Progress (receives data from Chores and Timer)

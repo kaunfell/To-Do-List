@@ -1,0 +1,39 @@
+.toDo{ /* background-color: rgb(255, 242, 215);*/
+  
+    border: 2px solid var(--border-color);
+
+    background-color: var(--container-bg-color);
+}
+
+.btn1{
+    background-color: rgb(206, 182, 160) ;
+    margin: 1px;
+    height: 30px;
+    
+}
+
+
+.head{
+    background-color: var(--head-bg-color);
+    border: 2px solid var(--border-color);
+    color: var(--head-color);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px rgb(37, 34, 34);
+}
+
+.test{
+    
+    text-decoration: dotted underline 2px rgb(214, 190, 109);
+    background-color: rgba(90, 54, 25, 0.089);
+    border-radius: 5px;
+    width: 120px;
+} 
+
+.done{
+    text-decoration: line-through   5px  var(--line-color) ;
+    color: rgba(0, 0, 0, 0.349);
+    /*background-color: rgba(70, 216, 70, 0.295);*/
+    
+    
+    
+}

@@ -1,0 +1,13 @@
+body{
+  background-color: var(--bg-color) ;
+
+  
+  
+}
+
+
+
+.main{
+  background-color: var(--section-bg-color);
+  border: 2px solid var(--section-border-color);
+}
