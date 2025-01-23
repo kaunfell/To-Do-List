@@ -93,7 +93,7 @@ return(
     <>
     <div>
     <h2 className={`${styles.head} rounded px-3 pb-1 `}>Things to do</h2>
-    <div className={`${styles.toDo} rounded p-1 `}  >
+    <div className={`${styles.toDo} rounded p-1 mb-sm-5`}  >
         
         <ul className="d-flex flex-column">
         

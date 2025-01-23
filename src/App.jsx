@@ -34,7 +34,7 @@ function App(props){
         
 
         <Header />
-        <div className={`${styles.main} container d-flex flex-row justify-content-around   mt-4 p-5 rounded`}>
+        <div className={`${styles.main} container d-flex flex-row justify-content-around flex-sm-wrap mt-4 p-5 rounded `}>
         
 
 

@@ -126,7 +126,7 @@ function StopWatch(props){
         <>
         <div>
         <h2 className={`${styles.head} rounded  px-3 text-center `}>Timer</h2>
-        <div className={`${styles.stopWatchContainer} container  d-flex align-items-center flex-column  rounded`} >
+        <div className={`${styles.stopWatchContainer} container  d-flex align-items-center flex-column  rounded mb-sm-5`} >
             
             {/*<input type="text" id="sessionTime" placeholder='Session time' className='rounded'/>
             <button className={`${styles.btn1} rounded mt-1`}>Set</button>*/}
@@ -140,9 +140,9 @@ function StopWatch(props){
                     name="fname"
                     id="fname"
                     min="0"
-                    max="16"
+                    max="20"
                     onChange={handleChange}
-                    
+                    data-toggle="tooltip" title="max 20"
                     
             
             />
@@ -153,7 +153,10 @@ function StopWatch(props){
                     id="lname"
                     min="0"
                     max="59"
-                    onChange={handleChange}/>
+                    onChange={handleChange}
+                    data-toggle="tooltip" title="max 59"
+                    />
+                    
 
 
 
@@ -165,7 +168,7 @@ function StopWatch(props){
 
             <p className={`${styles.smallHeads} mt-5 rounded`}>Session time</p>
             <div className={styles.display}>{formatTime()}</div>
-            <div className={`${styles.controls}  m-4`}>
+            <div className={`${styles.controls}  m-4 justify-content-center d-flex`}>
                 <button onClick={start} className='startBtn'>Start</button>
                 <button onClick={stop} className='stopBtn'>Stop</button>
                 <button onClick={reset} className='resetBtn' data-toggle="tooltip" title="Won't reset the progress">Reset</button>

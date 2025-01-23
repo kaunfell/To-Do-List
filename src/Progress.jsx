@@ -88,8 +88,8 @@ useEffect(() => {
 
                     
 
-                    <div className="text-center w-25">
-                        <p className={`${styles.smallHeads} text-start rounded`}>Completed <br></br>tasks:</p>
+                    <div className="text-start w-50 ">
+                        <p className={`${styles.smallHeads} text-start    rounded`}>Completed <br></br>chores:</p>
                         <span>  {many}/{numberOfChores} </span>
                         <progress className={`${styles.progressB} border rounded w-100 ${styles[color]}`}    value={many} max={numberOfChores} /> 
                     </div>
